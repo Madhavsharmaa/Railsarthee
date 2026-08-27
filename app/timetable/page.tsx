@@ -139,7 +139,7 @@ export default function Page() {
       <main className="tool-page">
         <section className="tool-hero">
           <div className="eyebrow">
-            RAILSARTHI TOOL
+            RAILSARTHEE TOOL
           </div>
 
           <h1>Train Timetable</h1>

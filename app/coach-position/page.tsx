@@ -309,7 +309,7 @@ export default function Page() {
 
       <main className="tool-page">
         <section className="tool-hero">
-          <div className="eyebrow">RAILSARTHI TOOL</div>
+          <div className="eyebrow">RAILSARTHEE TOOL</div>
           <h1>Coach Position</h1>
           <p>
             Find coach position information for your selected train.

@@ -319,7 +319,7 @@ export default function Page({
         <section className="bw-hero">
           <div className="bw-hero-inner">
             <div className="bw-eyebrow">
-              RAILSARTHI TOOL
+              RAILSARTHEE TOOL
             </div>
 
             <h1>Trains Between Stations</h1>

@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+
 import {
   ArrowRight,
   Clock3,
@@ -67,7 +68,7 @@ export default function Home() {
     <>
       <Header />
 
-      <main>
+      <main style={{ overflowX: "hidden", width: "100%" }}>
         {/* =====================================================
             HERO SECTION
         ====================================================== */}
@@ -102,7 +103,7 @@ export default function Home() {
 
         <section className="quick-section">
           <div className="section-title">
-            <span>RailSarthi Tools</span>
+            <span>RailSarthee Tools</span>
 
             <h2>
               Everything you need for your journey
@@ -135,18 +136,26 @@ export default function Home() {
             PHOTO BAND
         ====================================================== */}
 
-        <section className="photo-band">
+        <section
+          className="photo-band"
+          style={{
+            overflow: "hidden",
+            width: "100%",
+            boxSizing: "border-box",
+          }}
+        >
           <div className="photo-copy">
-            <div className="eyebrow">
-              BUILT AROUND THE JOURNEY
-            </div>
-
+            
+              <div className="eyebrow" style={{ color: '#923a71' }}>
+                BUILT AROUND THE JOURNEY
+              </div>
+         
             <h2>
               From the platform to the destination.
             </h2>
 
             <p>
-              RailSarthi keeps railway information focused,
+              RailSarthee keeps railway information focused,
               quick and easy to use.
             </p>
 
@@ -159,15 +168,28 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className="photo-placeholder">
-            <div className="rail-sun" />
-
-            <div className="rail-lines" />
-
-            <span>
-              Add your railway photography to{" "}
-              <b>/public/images</b>.
-            </span>
+          {/* ONE LANDSCAPE IMAGE ONLY */}
+          <div
+            className="photo-placeholder"
+            style={{
+              width: "105%",
+              height: "260px",
+              overflow: "hidden",
+              flexShrink: 0,
+              boxSizing: "border-box",
+            }}
+          >
+            <img
+              src="/images/new.png"
+              alt="Indian railway tracks"
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "cover",
+                objectPosition: "center",
+                display: "block",
+              }}
+            />
           </div>
         </section>
 
@@ -273,7 +295,7 @@ export default function Home() {
           {[
             [
               "How do station suggestions work?",
-              "Enter at least three characters and RailSarthi suggests matching stations from Neon.",
+              "Enter at least three characters and RailSarthee suggests matching stations from Neon.",
             ],
             [
               "Can I search by train name?",
@@ -281,7 +303,7 @@ export default function Home() {
             ],
             [
               "Where does timetable information come from?",
-              "RailSarthi uses timetable data stored in your Neon PostgreSQL database.",
+              "RailSarthee uses timetable data stored in your Neon PostgreSQL database.",
             ],
             [
               "Can I check live train status?",

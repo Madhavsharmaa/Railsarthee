@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "RailSarthi — Indian Railway Search",
+  title: "RailSarthee",
   description: "Search trains, stations, timetables and live railway information."
 };
 

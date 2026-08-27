@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="footer-grid">
         <div>
           <div className="footer-brand">
-            Rail<span>Sarthi</span>
+            Rail<span>Sarthee</span>
           </div>
 
           <p>
@@ -34,7 +34,7 @@ export default function Footer() {
 
 
         <div>
-          <h4>RailSarthi</h4>
+          <h4>RailSarthee</h4>
           <p>
             This website is created solely for educational purposes. It is 
             not intended for commercial use and is not endorsed
@@ -50,7 +50,7 @@ export default function Footer() {
 
 
       <div className="footer-bottom">
-        Made with ❤️ for railway travellers · RailSarthi
+        Made with ❤️ for railway travellers · RailSarthee
       </div>
     </footer>
   );
