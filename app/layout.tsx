@@ -1,0 +1,11 @@
+import type { Metadata } from "next";
+import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "RailSarthi — Indian Railway Search",
+  description: "Search trains, stations, timetables and live railway information."
+};
+
+export default function RootLayout({children}:{children:React.ReactNode}) {
+  return <html lang="en"><body>{children}</body></html>;
+}
